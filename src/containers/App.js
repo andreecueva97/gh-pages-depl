@@ -11,10 +11,10 @@ function App() {
     return (
       <div>
         <Switch>
-          <HashRoute exact path="/" component={Home}/>
-          <HashRoute exact path="/login" component={Login} />
-          <HashRoute exact path="/register" component={Register} />
-          <HashRoute exact path="/profile" component={Profile}/>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/register" component={Register} />
+          <Route exact path="/profile" component={Profile}/>
         </Switch>
       </div>
     );
