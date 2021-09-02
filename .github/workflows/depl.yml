@@ -5,7 +5,7 @@ on:
       - "main"
 jobs:             # Si se hace el push, se hace el trabajo BUILD AND DEPLOY
   build-and-deploy:
-    run-on: ubuntu-latest     #se va a hacer en una MV en GITHUB
+    runs-on: ubuntu-latest     #se va a hacer en una MV en GITHUB
     steps:                       #vamos hacer los siguientes pasos
       - name: Checkout              ##=> verificar repositorio
         uses: actions/checkout@master
