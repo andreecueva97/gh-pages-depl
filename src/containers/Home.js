@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="contenedor">
       <header className="header">
-        <h2>HEADER</h2>
+        <h2>HEADERRRRR</h2>
       </header>
 
       <div className="contenido"> 
