@@ -5,7 +5,7 @@ import Register from './Register';
 import Home from './Home';
 import Profile from './Profile';
 
-import { Switch, Route, HashRouter } from "react-router-dom";
+import { Switch, Route, } from "react-router-dom";
 
 function App() {
     return (
