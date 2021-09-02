@@ -11,7 +11,7 @@ function App() {
     return (
       <div>
         <Switch>
-          <Route exact path="/https://andreecueva97.github.io/gh-pages-depl/" component={Home}/>
+          <Route exact path="/" component={Home}/>
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/profile" component={Profile}/>
