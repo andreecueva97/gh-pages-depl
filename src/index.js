@@ -11,11 +11,7 @@ import { userDataReducer } from './reducers'
 import { BrowserRouter } from "react-router-dom";
 
 import './index.css';
-app.use(express.static("https://github.com/andreecueva97/gh-pages-depl")); //here is important thing - no static directory, because all static :)
 
-app.get("/*", function(req, res) {
-  res.sendFile(path.join(__dirname, "index.html"));
-});
 const logger = createLogger() 
 
 const rootReducers = combineReducers({userDataReducer})
