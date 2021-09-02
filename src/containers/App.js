@@ -5,16 +5,16 @@ import Register from './Register';
 import Home from './Home';
 import Profile from './Profile';
 
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, HashRouter } from "react-router-dom";
 
 function App() {
     return (
       <div>
         <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/register" component={Register} />
-          <Route exact path="/profile" component={Profile}/>
+          <HashRouter exact path="/" component={Home}/>
+          <HashRoute exact path="/login" component={Login} />
+          <HashRoute exact path="/register" component={Register} />
+          <HashRoute exact path="/profile" component={Profile}/>
         </Switch>
       </div>
     );
