@@ -12,7 +12,7 @@ jobs:             # Si se hace el push, se hace el trabajo BUILD AND DEPLOY
         with: 
           persist-credentials: false
       - name: Install and Build     ##=> instalar archivos y dependencias
-        run:                        # nota: la MV de GITHUB viene con REACT no es necesario instalarlo.
+        run:  |                    # nota: la MV de GITHUB viene con REACT no es necesario instalarlo.
           npm install
           npm run build
       - name: Deploy                ##=> realizar un deploy
