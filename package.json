@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
  
-  "homepage": " https://github.com/andreecueva97/gh-pages-depl/src/index.js",
+  "homepage": " https://github.com/andreecueva97/gh-pages-depl/",
   
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -27,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
+    "predeploy":"npm start",
     "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
