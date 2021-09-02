@@ -11,7 +11,7 @@ function App() {
     return (
       <div>
         <Switch>
-          <HashRouter exact path="/" component={Home}/>
+          <HashRoute exact path="/" component={Home}/>
           <HashRoute exact path="/login" component={Login} />
           <HashRoute exact path="/register" component={Register} />
           <HashRoute exact path="/profile" component={Profile}/>
