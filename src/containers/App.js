@@ -10,13 +10,13 @@ import { Switch, Route, } from "react-router-dom";
 function App() {
     return (
       <div>
-        <Home/>
-        {/* <Switch>
+        
+        <Switch>
           <Route exact path="/" basename={process.env.PUBLIC_URL} component={Home}/>
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/profile" component={Profile}/>
-        </Switch> */}
+        </Switch>
       </div>
     );
 }
