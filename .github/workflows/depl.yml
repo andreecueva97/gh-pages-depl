@@ -21,3 +21,10 @@ jobs:             # Si se hace el push, se hace el trabajo BUILD AND DEPLOY
           github_token: ${{ secrets.GITHUB_TOKEN}}
           branch: gh-pages
           folder: build
+      - name: Use NODEJS
+        uses: actions/setup-node@v1
+      - run: npm ci
+      - run: npm run format:check
+      - run: npm test -- --coverage
+        env:
+          CI: true
