@@ -10,7 +10,6 @@ import { Switch, Route, } from "react-router-dom";
 function App() {
     return (
       <div>
-        
         <Switch>
           <Route exact path="/" basename={process.env.PUBLIC_URL} component={Home}/>
           <Route exact path="/login" component={Login} />
